@@ -4,6 +4,10 @@ body {
 	border: 1px solid black;
 }
 
+
+                    /* CSS CONTAINER */
+
+
 .container {
 	width: 1140px;
 	margin: 0 auto;
@@ -12,4 +16,44 @@ body {
 	flex-direction: column;
 	border: 1px solid blue;
 }
+
+
+                    /* CSS ICONES */
+
+
+.fa-map-marker-alt, .fa-mobile-alt, .fa-envelope, .fa-github {
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+
+.fa-futbol, .fa-plane-departure {
+    color: darkgoldenrod;
+    font-size: 40px;
+    margin: 20px 0 30px 0px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 50%;
+    padding: 7.8px;
+}
+
+.fa-gamepad {
+    color: darkgoldenrod;
+    font-size: 40px;
+    margin: 20px 0 30px 0;
+    border: 2px solid darkgoldenrod;
+    border-radius: 50%;
+    padding: 7.8px;
+
+}
+
+.fa-dot-circle, .fa-circle {
+    color: darkgoldenrod;
+}
+
+.fa-briefcase, .fa-pencil-alt, .fa-graduation-cap {
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+
+
+                    /* CSS HEADER */
 
