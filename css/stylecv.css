@@ -138,3 +138,56 @@ strong {
 	margin: 20px 35px;
 	color: lightgray;
 }
+
+
+                    /* BLOC SECONDAIRE / PARTIE BLANCHE */
+
+
+.whiteblock {
+	border: 2px solid yellow;
+	background-color: darkgray;
+	display: flex;
+	flex-direction: column;
+	width: 764px;
+	padding-left: 25px;
+}
+
+.whiteblock section {
+	background: gray;
+}
+
+.whiteblock h2 {
+	border-bottom: 1px solid darkgoldenrod;
+	padding: 5px 0 5px 10px;
+	font-size: 1.7em;
+}
+
+.education_now, .education_past {
+    display: flex;
+}
+
+.period {
+    border: 1px dashed black;
+    width: 40%;
+    padding: 3.5px 0 0 5px;
+}
+
+.period p {
+    display: inline-flex;
+}
+
+.diploma {
+    border: 1px dashed magenta;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.jobs_now, .jobs_past {
+    display: flex;
+}
+
+.jobs_status {
+    border: 1px dashed lightseagreen;
+    width: 100%;
+    padding: 0 5px;
+}
