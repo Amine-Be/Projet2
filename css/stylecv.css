@@ -102,6 +102,39 @@ strong {
 }
 
 
-                    /* CSS BLOC SECONDAIRE */
+                    /* CSS BLOC SECONDAIRE / PARTIE COLORÉE */
 
 
+.block {
+	display: flex;
+}
+
+.coloredblock {
+	border: 2px solid yellow;
+	background: #2c3e50;
+	display: flex;
+	flex-direction: column;
+	width: 376px;
+}
+
+.coloredblock h2 {
+	background-color: darkgoldenrod;
+	width: auto;
+	padding: 10px 0;
+	text-align: center;
+	text-shadow: 0 0 3px white;
+}
+
+.coloredblock ul {
+	list-style-type: none;
+}
+
+.coloredblock span, a {
+	margin-left: 5px;
+	color: lightgray;
+}
+
+.about_me p {
+	margin: 20px 35px;
+	color: lightgray;
+}
