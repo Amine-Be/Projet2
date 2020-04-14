@@ -1,0 +1,15 @@
+body {
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-weight: normal;
+	border: 1px solid black;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	text-align: justify;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid blue;
+}
+
