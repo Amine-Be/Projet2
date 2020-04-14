@@ -1,0 +1,48 @@
+body {
+    width: auto;
+}
+
+.container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #2c3e50;
+}
+
+.picture {
+    width: 100%;
+}
+
+img { 
+    margin-left: 33%;
+}
+
+.name {
+    margin: 20px;
+    color: lightgray;
+}
+
+.coloredblock {
+    width: auto;
+    flex-direction: column;
+}
+
+address {
+    font-style: normal;
+}
+
+.coloredblock span, a {
+    padding: 10px;
+}
+
+.whiteblock {
+    width: 100%;
+    flex-direction: column;
+
+}
