@@ -9,12 +9,18 @@ body {
 
 
 .container {
-	width: 1140px;
-	margin: 0 auto;
-	text-align: justify;
 	display: flex;
-	flex-direction: column;
-	border: 1px solid blue;
+	flex-wrap: wrap;
+}
+
+.container >*:nth-child(1) {
+	width: 30%;
+	background: #455A64;
+}
+
+.container >*:nth-child(2) {
+	width: 60%;
+	margin-left: 45px;
 }
 
 
@@ -26,25 +32,6 @@ body {
     font-size: 20px;
 }
 
-.fa-futbol, .fa-plane-departure {
-    color: darkgoldenrod;
-    font-size: 40px;
-    margin: 20px 0 30px 0px;
-    border: 2px solid darkgoldenrod;
-    border-radius: 50%;
-    padding: 7.8px;
-}
-
-.fa-gamepad {
-    color: darkgoldenrod;
-    font-size: 40px;
-    margin: 20px 0 30px 0;
-    border: 2px solid darkgoldenrod;
-    border-radius: 50%;
-    padding: 7.8px;
-
-}
-
 .fa-dot-circle, .fa-circle {
     color: darkgoldenrod;
 }
@@ -54,182 +41,127 @@ body {
     font-size: 30px;
 }
 
+.fa-futbol, .fa-gamepad, .fa-plane-departure {
+	margin: 10px;
+	padding: 10px;
+	color: darkgoldenrod;
+	border: 3px solid darkgoldenrod;
+	border-radius: 50%;
+	font-size: 30px;
+}
+
 
                     /* CSS HEADER */
 
 
-header {
-	display: flex;
-	border: 1px solid red;
+header .picture {
+	text-align: center;
+	padding: 50px 0;
 }
 
-.picture {
-	background-color: #2c3e50;
-	width: 376px;
-	border: 1px dashed black;
-}
-
-img {
-    border-radius: 50%;
-    margin: 50px 0 30px 78px;
-    box-shadow: 0 0 5px lightgray;
+header .picture img {
+	width: 50%;
+	border-radius: 50%;
+	border: 5px solid rgb(55,71,79);
 }
 
 .name {
-	width: 764px;
-	border: 1px dashed black;
-	padding-left: 25px;
-	margin: 105px 0;
+	margin: auto;
 }
 
-.name h1 {
-    font-size: 3em;
-    margin: 0 auto;
+h1 {
+	font-size: 3em;
 }
 
-strong {
-    color: darkgoldenrod;
-}
-
-.name p {
-    font-size: 1.7em;
-    margin: 0 auto;
+h2 {
+	font-size: 1.5em;
 }
 
 .name span {
-    padding-top: 5px;
-    text-decoration: underline darkgoldenrod;
+	border-bottom: 2px solid darkgoldenrod;
+}
+
+strong {
+	color: darkgoldenrod;
 }
 
 
-                    /* CSS BLOC SECONDAIRE / PARTIE COLORÉE */
+                    /* CSS PARTIE COLORÉE */
 
-
-.block {
-	display: flex;
-}
-
-.coloredblock {
-	border: 2px solid yellow;
-	background: #2c3e50;
-	display: flex;
-	flex-direction: column;
-	width: 376px;
-}
 
 .coloredblock h2 {
-	background-color: darkgoldenrod;
-	width: auto;
-	padding: 10px 0;
 	text-align: center;
-	text-shadow: 0 0 3px white;
+	background-color: darkgoldenrod;
+	padding: 10px 0;
+	text-shadow: 0 0 5px lightgray;
 }
 
-.coloredblock ul {
+
+address ul {
 	list-style-type: none;
 }
 
-.coloredblock span, a {
+address ul li {
+	padding: 10px;
+	margin: 20px;
+}
+
+address span {
+	color: lightgray;
 	margin-left: 5px;
-	color: lightgray;
 }
-
 .about_me p {
-	margin: 20px 35px;
+	text-align: justify;
+	margin: 50px;
 	color: lightgray;
 }
 
+a {
+	text-decoration: none;
+	color: lightgray;
+}
 
-                    /* CSS BLOC SECONDAIRE / PARTIE BLANCHE */
+                    /* PARTIE BLANCHE */
 
 
-.whiteblock {
-	border: 2px solid yellow;
-	background-color: darkgray;
+.whiteblock_title {
+	border-bottom: solid darkgoldenrod;
+}
+
+.education_now, .education_past, .jobs_now, .jobs_past {
 	display: flex;
-	flex-direction: column;
-	width: 764px;
-	padding-left: 25px;
-}
-
-.whiteblock section {
-	background: gray;
-}
-
-.whiteblock h2 {
-	border-bottom: 1px solid darkgoldenrod;
-	padding: 5px 0 5px 10px;
-	font-size: 1.7em;
-}
-
-.education_now, .education_past {
-    display: flex;
+	margin: 50px 0;
 }
 
 .period {
-    border: 1px dashed black;
-    width: 40%;
-    padding: 3.5px 0 0 5px;
+	width: 30%;
+	text-align: left;
+	display: flex;
+	align-items: baseline;
+	margin-top: 2px;
+}
+
+.status {
+	text-align: justify;
+	width: 60%;
+	margin-left: 15px;
 }
 
 .period p {
-    display: inline-flex;
-}
-
-.diploma {
-    border: 1px dashed magenta;
-    width: 100%;
-    padding: 0 5px;
-}
-
-.jobs_now, .jobs_past {
-    display: flex;
-}
-
-.jobs_status {
-    border: 1px dashed lightseagreen;
-    width: 100%;
-    padding: 0 5px;
+	margin-left: 10px;
 }
 
 
                     /* CSS FOOTER */
 
 
-footer {
-	display: flex;
-	border: 1px solid green;
-}
-
-.hobbies {
-	width: 376px;
-	background-color: #2c3e50;
-	border: 3px solid black;
+.coloredblock div {
 	text-align: center;
-}
-
-.hobbies h2 {
-	background-color: darkgoldenrod;
-	width: auto;
-	padding: 10px 0;
-	text-align: center;
-	text-shadow: 0 0 3px lightgray;
+	margin: 20px;
 }
 
 .recommendations {
-	width: 764px;
-	border: 3px solid black;
-	padding-left: 25px;
-}
-
-.recommendations h2 {
-	border-bottom: 1px solid darkgoldenrod;
-	padding: 5px 0 5px 10px;
-	font-size: 1.7em;
-}
-
-.recommendations div {
-	display: inline-block;
-	text-align: left;
-	margin: 0 70px 20px 70px;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 50px auto;
 }
