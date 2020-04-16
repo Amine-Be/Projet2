@@ -1,48 +1,44 @@
-body {
-    width: auto;
+.container >*:nth-child(1), .container >*:nth-child(2) {
+	width: 100%;
 }
 
-.container {
-    width: auto;
-    display: flex;
-    flex-direction: column;
+.container >*:nth-child(2) {
+    margin-left: unset;
 }
-
 header {
-    width: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background: #2c3e50;
-}
-
-.picture {
-    width: 100%;
-}
-
-img { 
-    margin-left: 33%;
+    background: #455a64;
 }
 
 .name {
-    margin: 20px;
     color: lightgray;
+    text-align: center;
 }
 
-.coloredblock {
+.whiteblock_title {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.education_now, .education_past, .jobs_now, .jobs_past {
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.period, .status {
     width: auto;
+}
+
+footer {
+    flex-direction: column-reverse;
+}
+
+.recommendations {
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-address {
-    font-style: normal;
+.recommendation1 {
+    margin-bottom: 20px;
 }
 
-.coloredblock span, a {
-    padding: 10px;
-}
-
-.whiteblock {
-    width: 100%;
-    flex-direction: column;
-
-}
