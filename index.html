@@ -6,29 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/stylecv.css">
     <script src="https://kit.fontawesome.com/b2273834a2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/extra_small.css" media="(max-width=575.98px)">
-    <link rel="stylesheet" href="css/small.css" media="(min-width=576px) and (max-width=767.98px)">
-    <link rel="stylesheet" href="css/medium.css" media="(min-width=768px) and (max-width=991.98px)">
-    <link rel="stylesheet" href="css/large.css" media="(min-width=992px) and (max-width=1199.98px)">
-    <link rel="stylesheet" href="css/extra_large.css" media="(min-width=1200px)">
+    <link rel="stylesheet" href="css/extra_small.css" media="screen and (max-width:575.98px)">
+    <link rel="stylesheet" href="css/small.css" media="screen and (min-width:576px) and (max-width:767.98px)">
+    <link rel="stylesheet" href="css/medium.css" media="screen and (min-width:768px) and (max-width:991.98px)">
+    <link rel="stylesheet" href="css/large.css" media="screen and (min-width:992px) and (max-width:1199.98px)">
+    <link rel="stylesheet" href="css/extra_large.css" media="screen and (min-width:1200px)">
     <title>Amine Benazzi</title>
 </head>
 <body>
     <!-- CONTAINER -->
-    <div class="container">
         <!-- HTML EN-TÊTE / TITRE & PHOTO -->
-        <header>
+        <header class="container"> 
             <div class="picture">
-                <img src="photo/portraitmini2.png" alt="Moi">
+                <img src="photo/portraitcarree.jpg" alt="Moi">
             </div>
+            
             <div class="name">
                 <h1><strong>AMINE</strong> BENAZZI</h1>
-                <p><span>Dev</span>elopeur Web Freelance</p>
+                <h2><span>Dev</span>elopeur Web Freelance</h2>
             </div>
         </header>
         
         <!-- HTML BLOC SECONDAIRE -->
-        <div class="block">
+        <div class="container">
             <div class="coloredblock">
                 <!-- HTML BLOC COLORÉE -->
                 <h2> CONTACT </h2>
@@ -50,113 +50,120 @@
                     </p>
                 </section>
             </div>
-            <!-- HTML BLOC BLANC -->
-            <div class="whiteblock">
-                <!-- HTML FORMATION -->
-                <section class="education">
-                    <h2><i class="fas fa-graduation-cap"></i> FORMATION </h2>
-                    <div class="education_now">
-                        <!-- PREMIER DIPLOME -->
-                        <div class="period">
-                            <i class="far fa-dot-circle"></i>
-                            <p>2020 - 6 mois<br />Paris</p>
+            
+        <!-- HTML BLOC BLANC -->    
+            <div>
+                <div class="whiteblock">
+                    <!-- HTML FORMATION -->
+                    <section>
+                        <div class="whiteblock_title"><h2><i class="fas fa-graduation-cap"></i> FORMATION </h2></div>
+                        <div class="education_now">
+                            <!-- PREMIER DIPLOME -->
+                            <div class="period">
+                                <i class="far fa-dot-circle"></i>
+                                <p>2020 - 6 mois<br />Paris</p>
+                            </div>
+                            <div class="status">
+                                <h3> OPENCLASSROOMS</h3>
+                                <h4> Formation de Développeur Web</h4>
+                                <p>
+                                    Cette formation a pour objectif l'apprentissage des bases de l'intégration,
+                                    passant par les langages front-end HTML5, CSS et JavaScript
+                                    ainsi que les langages back-end Node.js, Express et MongoDB.
+                                </p>
+                            </div>
                         </div>
-                        <div class="diploma">
-                            <h3> OPENCLASSROOMS</h3>
-                            <h4> Formation de Développeur Web</h4>
-                            <p>
-                                Cette formation a pour objectif l'apprentissage des bases de l'intégration,
-                                passant par les langages front-end HTML5, CSS et JavaScript
-                                ainsi que les langages back-end Node.js, Express et MongoDB.
-                            </p>
+                        <!-- DEUXIEME DIPLOME -->
+                        <div class="education_past">
+                            <div class="period">
+                                <i class="fas fa-circle"></i>
+                                <p>
+                                    2018 - 2019<br />
+                                    Paris
+                                </p>
+                            </div>
+                            <div class="status">
+                                <h3> MONOPRIX </h3>
+                                <h4> Bac Pro Commerce (V.A.E)</h4>
+                                <p>
+                                    Diplome obtenue via la Validation des Acquis de l'Epérience,
+                                    processus permettant de valider un diplome ou une certification via sa propre expérience
+                                    professionnelle.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <!-- DEUXIEME DIPLOME -->
-                    <div class="education_past">
-                        <div class="period">
-                            <i class="fas fa-circle"></i>
-                            <p>
-                                2018 - 2019<br />
-                                Paris
-                            </p>
+                    </section>
+                    <!-- EXPÉRIENCES -->
+                    <section>
+                        <div class="whiteblock_title"><h2><i class="fas fa-briefcase"></i> EXPÉRIENCES PROFESSIONNELLE </h2></div>
+                        <div class="jobs_now">
+                            <div class="period">
+                                <i class="far fa-dot-circle"></i>
+                                <p>
+                                    2020 - Poste actuel<br />
+                                    Paris
+                                </p>
+                    
+                            </div>
+                            <div class="status">
+                                <h3> MONOPRIX </h3>
+                                <h4> Chargé de rayon alimentaire</h4>
+                                <p>
+                                    Le chargé de rayon alimentaire est l'équivalent de l'adjoint de rayon.
+                                    Il est en charge de la mise en rayon, de l'acceuil des clients;
+                                    et du management de l'équipe et de la gestion du rayon lorsque le chef de rayon est absent.
+                                </p>
+                            </div>
                         </div>
-                        <div class="diploma">
-                            <h3> MONOPRIX </h3>
-                            <h4> Bac Pro Commerce (V.A.E)</h4>
-                            <p>
-                                Diplome obtenue via la Validation des Acquis de l'Epérience,
-                                processus permettant de valider un diplome ou une certification via sa propre expérience
-                                professionnelle.
-                            </p>
+                        <div class="jobs_past">
+                            <div class="period">
+                                <i class="fas fa-circle"></i>
+                                <p>
+                                    2012 - 2016<br />
+                                    Paris
+                                </p>
+                            </div>
+                            <div class="status">
+                                <h3> MONOPRIX </h3>
+                                <h4>Employé commercial rayons alimentaire</h4>
+                                <p>
+                                    L'employé commercial alimentaire est en charge principalement de la mise en rayon
+                                    ainsi que de l'acceuil des clients.
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                </section>
-                <!-- EXPÉRIENCES -->
-                <section class="jobs">
-                    <h2><i class="fas fa-briefcase"></i> EXPÉRIENCES PROFESSIONNELLE </h2>
-                    <div class="jobs_now">
-                        <div class="period">
-                            <i class="far fa-dot-circle"></i>
-                            <p>
-                                2020 - Poste actuel<br />
-                                Paris
-                            </p>
-                
-                        </div>
-                        <div class="jobs_status">
-                            <h3> MONOPRIX </h3>
-                            <h4> Chargé de rayon alimentaire</h4>
-                            <p>
-                                Le chargé de rayon alimentaire est l'équivalent de l'adjoint de rayon.
-                                Il est en charge de la mise en rayon, de l'acceuil des clients;
-                                et du management de l'équipe et de la gestion du rayon lorsque le chef de rayon est absent.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="jobs_past">
-                        <div class="period">
-                            <i class="fas fa-circle"></i>
-                            <p>
-                                2012 - 2016<br />
-                                Paris
-                            </p>
-                        </div>
-                        <div class="jobs_status">
-                            <h3> MONOPRIX </h3>
-                            <h4>Employé commercial rayons alimentaire</h4>
-                            <p>
-                                L'employé commercial alimentaire est en charge principalement de la mise en rayon
-                                ainsi que de l'acceuil des clients.
-                            </p>
-                        </div>
-                    </div>
-                </section>
+                    </section>
+                </div>
             </div>
         </div>
         <!-- PIED DE PAGE / LOISIRS & RECOMMANDATIONS -->
-        <footer>
-            <div class="hobbies">
+        <footer class="container">
+            <div class="coloredblock">
                 <h2> LOISIRS </h2>
-                <i class="fas fa-futbol"></i>
-                <i class="fas fa-gamepad"></i>
-                <i class="fas fa-plane-departure"></i>
-            </div>
-            <div class="recommendations">
-                <h2> <i class="fas fa-pencil-alt"></i> RECOMMANDATIONS</h2>
-                <div class="recommendation1">
-                    MANAILE BENABDALLAH<br />
-                    Directrice, Mon Agence<br />
-                    Tel : 06.12.34.56.78<br />
-                    Email : nom@email.com
+                <div>
+                    <i class="fas fa-futbol"></i>
+                    <i class="fas fa-gamepad"></i>
+                    <i class="fas fa-plane-departure"></i>
                 </div>
-                <div class="recommendation2">
-                    MANAILE BENABDALLAH<br />
-                    Directrice, Mon Agence<br />
-                    Tel : 06.12.34.56.78<br />
-                    Email : nom@email.com
+            </div>
+            
+            <div>
+                <div class="whiteblock_title"><h2> <i class="fas fa-pencil-alt"></i> RECOMMANDATIONS</h2></div>
+                <div class="recommendations">
+                    <div class="recommendation1">
+                        MANAILE BENABDALLAH<br />
+                        Directrice, Mon Agence<br />
+                        Tel : 06.12.34.56.78<br />
+                        Email : nom@email.com
+                    </div>
+                    <div class="recommendation2">
+                        MANAILE BENABDALLAH<br />
+                        Directrice, Mon Agence<br />
+                        Tel : 06.12.34.56.78<br />
+                        Email : nom@email.com
+                    </div>
                 </div>
             </div>
         </footer>
-    </div>
 </body>
 </html>
