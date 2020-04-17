@@ -1,11 +1,12 @@
 body {
 	font-family: Verdana, Tahoma, Arial, sans-serif;
 	font-weight: normal;
-	border: 1px solid black;
 }
 
 
+
                     /* CSS CONTAINER */
+
 
 
 .container {
@@ -13,35 +14,37 @@ body {
 	flex-wrap: wrap;
 }
 
-.container >*:nth-child(1) {
+.container >*:nth-child(1) {       /* Largeur du premier enfant */
 	width: 30%;
 	background: #455A64;
 }
 
-.container >*:nth-child(2) {
+.container >*:nth-child(2) {       /* Largeur du deuxième enfant */
 	width: 60%;
 	margin-left: 45px;
 }
 
 
+
                     /* CSS ICONES */
 
 
-.fa-map-marker-alt, .fa-mobile-alt, .fa-envelope, .fa-github {
+
+.fa-map-marker-alt, .fa-mobile-alt, .fa-envelope, .fa-github {  /* icones de la partie contact */
     color: darkgoldenrod;
     font-size: 20px;
 }
 
-.fa-dot-circle, .fa-circle {
+.fa-dot-circle, .fa-circle {         /* icones des périodes de formation et expériences pro */
     color: darkgoldenrod;
 }
 
-.fa-briefcase, .fa-pencil-alt, .fa-graduation-cap {
+.fa-briefcase, .fa-pencil-alt, .fa-graduation-cap {      /* icones des titres des sections */
     color: darkgoldenrod;
     font-size: 30px;
 }
 
-.fa-futbol, .fa-gamepad, .fa-plane-departure {
+.fa-futbol, .fa-gamepad, .fa-plane-departure {          /* icones de la partie loisirs */
 	margin: 10px;
 	padding: 10px;
 	color: darkgoldenrod;
@@ -51,45 +54,55 @@ body {
 }
 
 
+
                     /* CSS HEADER */
 
 
-header .picture {
+
+header .picture {				/* alignement de la photo et marge intérieurs */
 	text-align: center;
 	padding: 50px 0;
 }
 
-header .picture img {
+header .picture img {			/* largeur de la photo arrondie et bordure */
 	width: 50%;
 	border-radius: 50%;
 	border: 5px solid rgb(55,71,79);
 }
 
-.name {
+.name {							/* marge du bloc nom, prénom, profession */
 	margin: auto;
 }
 
-h1 {
+h1 {							/* taille nom et prénom */
 	font-size: 3em;
+	font-weight: normal;
 }
 
-h2 {
+h2 {							/* taille profession */
 	font-size: 1.5em;
 }
 
-.name span {
+.name span {					/* syllabe soulignée */
 	border-bottom: 2px solid darkgoldenrod;
 }
 
-strong {
+strong {						/* changement couleur prénom */
 	color: darkgoldenrod;
 }
+
 
 
                     /* CSS PARTIE COLORÉE */
 
 
-.coloredblock h2 {
+
+.coloredblock div {				/* mise en forme des contacts */
+	text-align: center;
+	margin: 20px;
+}
+
+.coloredblock h2 {				/* alignement, mise en forme des titres */
 	text-align: center;
 	background-color: darkgoldenrod;
 	padding: 10px 0;
@@ -97,11 +110,11 @@ strong {
 }
 
 
-address ul {
+address ul {					/* disparition des puces */
 	list-style-type: none;
 }
 
-address ul li {
+address ul li {					/* mise en forme des la partie contact */
 	padding: 10px;
 	margin: 20px;
 }
@@ -110,30 +123,32 @@ address span {
 	color: lightgray;
 	margin-left: 5px;
 }
-.about_me p {
+.about_me p {					/* mise en forme du texte "à propos de moi" */
 	text-align: justify;
 	margin: 50px;
 	color: lightgray;
 }
 
-a {
+a {								/* changement couleur des liens */
 	text-decoration: none;
 	color: lightgray;
 }
 
+
                     /* PARTIE BLANCHE */
 
 
-.whiteblock_title {
+
+.whiteblock_title {				/* couleur bordure basse des titres du bloc blanc */
 	border-bottom: solid darkgoldenrod;
 }
 
-.education_now, .education_past, .jobs_now, .jobs_past {
+.education_now, .education_past, .jobs_now, .jobs_past {		/* disposition et mise en forme des sections */
 	display: flex;
 	margin: 50px 0;
 }
 
-.period {
+.period {						/* mise en forme "des périodes" */
 	width: 30%;
 	text-align: left;
 	display: flex;
@@ -141,27 +156,26 @@ a {
 	margin-top: 2px;
 }
 
-.status {
+.status {						/* mise en forme des status */
 	text-align: justify;
 	width: 60%;
 	margin-left: 15px;
 }
 
-.period p {
+.period p {						/* marge extérieur "des périodes" */
 	margin-left: 10px;
 }
+
 
 
                     /* CSS FOOTER */
 
 
-.coloredblock div {
-	text-align: center;
-	margin: 20px;
-}
 
-.recommendations {
+.recommendations {				/* disposition et mise en forme de la partie recommandations */
 	display: flex;
 	justify-content: space-evenly;
 	margin: 50px auto;
 }
+
+

@@ -1,0 +1,44 @@
+.container >*:nth-child(1), .container >*:nth-child(2) {
+	width: 100%;
+}
+
+.container >*:nth-child(2) {
+    margin-left: unset;
+}
+header {
+    background: #455a64;
+}
+
+.name {
+    color: lightgray;
+    text-align: center;
+}
+
+.whiteblock_title {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.education_now, .education_past, .jobs_now, .jobs_past {
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.period, .status {
+    width: auto;
+}
+
+footer {
+    flex-direction: column-reverse;
+}
+
+.recommendations {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommendation1 {
+    margin-bottom: 20px;
+}
+
