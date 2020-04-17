@@ -143,7 +143,7 @@ a {								/* changement couleur des liens */
 	border-bottom: solid darkgoldenrod;
 }
 
-.education_now, .education_past, .jobs_now, .jobs_past {		/* disposition et mise en forme des sections */
+.education, .jobs {				/* disposition et mise en forme des sections */
 	display: flex;
 	margin: 50px 0;
 }
