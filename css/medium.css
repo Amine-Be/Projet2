@@ -19,7 +19,7 @@ header {
     text-align: center;
 }
 
-.education_now, .education_past, .jobs_now, .jobs_past {
+.education, .jobs {
     margin: 50px 10px;
 }
 
@@ -45,7 +45,7 @@ footer {
     flex-direction: column-reverse;
 }
 
-.recommendation1 {
+.recommendations >*:nth-child(1) {
     margin-bottom: 20px;
 }
 
