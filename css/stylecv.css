@@ -99,10 +99,12 @@ strong {						/* changement couleur prénom */
 
 .coloredblock div {				/* mise en forme des contacts */
 	text-align: center;
-	margin: 20px;
+	margin: auto;
+	padding: 20px 0;
 }
 
 .coloredblock h2 {				/* alignement, mise en forme des titres */
+	margin: auto;
 	text-align: center;
 	background-color: darkgoldenrod;
 	padding: 10px 0;
